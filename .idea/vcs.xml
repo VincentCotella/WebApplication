@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-<<<<<<< HEAD
     <mapping directory="" vcs="Git" />
-=======
->>>>>>> 75fd206c3fdd4eb2e12d19d278efc0f8ddb1decc
-    <mapping directory="$PROJECT_DIR$/frontend-angular" vcs="Git" />
   </component>
 </project>
