@@ -57,6 +57,21 @@ learningPackageRoutes.get('/learning-packages/:id', (req, res) => __awaiter(void
         res.status(500).send('Error retrieving LearningPackage');
     }
 }));
+// Route to get learning facts by learning package ID
+learningPackageRoutes.get('/learning-packages/:id/learning-facts', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const learningPackageId = req.params.id;
+    try {
+        const learningFacts = yield LearningFact_1.default.findAll({
+            where: { learningPackageId },
+            include: [{ model: LearningPackage_1.default, as: 'LearningPackage' }],
+        });
+        res.json(learningFacts);
+    }
+    catch (error) {
+        console.error('Error fetching learning facts:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+}));
 // Update a LearningPackage by ID
 learningPackageRoutes.put('/learning-packages/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const learningPackageId = req.params.id;

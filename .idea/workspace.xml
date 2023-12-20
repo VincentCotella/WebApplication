@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9105ff2b-4dde-42b2-86d9-d3fc8693ae41" name="Changes" comment="back-end done">
+    <list default="true" id="9105ff2b-4dde-42b2-86d9-d3fc8693ae41" name="Changes" comment="back-end modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/database/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/database/sequelize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableCreation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tableCreation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-nodejs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-nodejs/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-angular/src/app/study-page/study-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-angular/src/app/study-page/study-page.component.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Vivien/Documents/A4 CCC S1/react & nodejs/WebApplication/backend-nodejs",
+    "last_opened_file_path": "C:/Users/Vivien/Documents/A4 CCC S1/react & nodejs/WebApplication/frontend-angular/src/app/services",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,7 +51,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vivien\Documents\A4 CCC S1\react &amp; nodejs\WebApplication\frontend-angular\src\app\services" />
       <recent name="C:\Users\Vivien\Documents\A4 CCC S1\react &amp; nodejs\WebApplication\backend-nodejs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vivien\Documents\A4 CCC S1\react &amp; nodejs\WebApplication\frontend-angular\src\app\services" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +73,7 @@
       <workItem from="1702984961162" duration="466000" />
       <workItem from="1702985444738" duration="488000" />
       <workItem from="1703090012746" duration="5000" />
-      <workItem from="1703090190420" duration="6330000" />
+      <workItem from="1703090190420" duration="14905000" />
     </task>
     <task id="LOCAL-00001" summary="setting up project">
       <option name="closed" value="true" />
@@ -99,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703093322423</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="back-end modified">
+      <option name="closed" value="true" />
+      <created>1703097349647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703097349647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setting up project" />
     <MESSAGE value="back-end done" />
-    <option name="LAST_COMMIT_MESSAGE" value="back-end done" />
+    <MESSAGE value="back-end modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="back-end modified" />
   </component>
 </project>

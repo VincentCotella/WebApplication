@@ -45,6 +45,24 @@ learningPackageRoutes.get('/learning-packages/:id', async (req, res) => {
     }
 });
 
+// Route to get learning facts by learning package ID
+learningPackageRoutes.get('/learning-packages/:id/learning-facts', async (req, res) => {
+    const learningPackageId = req.params.id;
+
+    try {
+        const learningFacts = await LearningFact.findAll({
+            where: { learningPackageId },
+            include: [{ model: LearningPackage, as: 'LearningPackage' }],
+        });
+
+        res.json(learningFacts);
+    } catch (error) {
+        console.error('Error fetching learning facts:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+
 // Update a LearningPackage by ID
 learningPackageRoutes.put('/learning-packages/:id', async (req, res) => {
     const learningPackageId = req.params.id;

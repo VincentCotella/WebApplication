@@ -20,7 +20,7 @@ const app = (0, express_1.default)();
 (() => __awaiter(void 0, void 0, void 0, function* () {
     try {
         // Start the server
-        const port = 3001; // You can change this to the desired port number
+        const port = 3000; // You can change this to the desired port number
         app.listen(port, () => {
             console.log(`Server is running on port ${port}`);
         });

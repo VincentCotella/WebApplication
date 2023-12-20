@@ -35,7 +35,7 @@ LearningFact.init({
         type: sequelize_1.DataTypes.INTEGER,
         allowNull: false,
         references: {
-            model: LearningPackage_1.default,
+            model: 'LearningPackage',
             key: 'learningPackageId', // Refer to the 'id' column of the LearningPackage model
         },
     },

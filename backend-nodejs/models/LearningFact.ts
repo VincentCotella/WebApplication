@@ -38,14 +38,14 @@ LearningFact.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
-                model: LearningPackage, // Refer to the LearningPackage model
+                model: 'LearningPackage', // Refer to the LearningPackage model
                 key: 'learningPackageId', // Refer to the 'id' column of the LearningPackage model
             },
         },
     },
     {
         sequelize,
-        tableName: 'LearningFact', // Assurez-vous que cela correspond au nom de la table dans votre base de données
+        tableName: 'LearningFact',
         modelName: 'LearningFact',
         timestamps: false, // Désactive les timestamps createdAt et updatedAt
     }
