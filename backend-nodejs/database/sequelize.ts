@@ -1,8 +1,8 @@
 import { Sequelize } from 'sequelize';
 
 const sequelize = new Sequelize({
-  database: 'PCMarketPlaceDB',
-  username: 'PcMarketPlaceDBUser',
+  database: 'LearningDB',
+  username: 'LearningDB',
   password: 'root',
   host: 'localhost', // Database host (e.g., 'localhost')
   dialect: 'postgres', // Specify the PostgreSQL dialect
