@@ -11,11 +11,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
 const sequelize = new sequelize_1.Sequelize({
-    database: 'PCMarketPlaceDB',
-    username: 'PcMarketPlaceDBUser',
+    database: 'LearningDB',
+    username: 'LearningDBUser',
     password: 'root',
-    host: 'localhost', // Database host (e.g., 'localhost')
-    dialect: 'postgres', // Specify the PostgreSQL dialect
+    host: 'localhost',
+    dialect: 'postgres',
     port: 5432, // Default PostgreSQL port
 });
 (() => __awaiter(void 0, void 0, void 0, function* () {

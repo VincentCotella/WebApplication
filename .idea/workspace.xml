@@ -4,59 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9105ff2b-4dde-42b2-86d9-d3fc8693ae41" name="Changes" comment="setting up project">
-      <change afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningPackage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-nodejs/routes/LearningFactRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.ts" afterDir="false" />
+    <list default="true" id="9105ff2b-4dde-42b2-86d9-d3fc8693ae41" name="Changes" comment="back-end done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-nodejs/database/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/database/sequelize.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Compatibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Compatibility.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Items.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Orders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Orders.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/OrdersItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/OrdersItems.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/OrdersPC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/OrdersPC.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/PC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/PC.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/PCComposition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/PCComposition.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/PaymentMethods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/PaymentMethods.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/Users.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/UsersPaymentMethod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/UsersPaymentMethod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/tsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/tsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/tsserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/tsserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/typescript.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/typescript.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/typingsInstaller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/node_modules/typescript/lib/typingsInstaller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/CompatibilityRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/CompatibilityRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/ItemsRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/ItemsRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/OrdersItemsRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/OrdersItemsRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/OrdersPCRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/OrdersPCRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/OrdersRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/OrdersRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/PCCompositionRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/PCCompositionRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/PCRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/PCRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/PaymentMethodRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/PaymentMethodRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/UsersPaymentMethodRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/UsersPaymentMethodRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/UsersRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/UsersRoutes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableCreation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tableCreation.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +65,7 @@
       <workItem from="1702984961162" duration="466000" />
       <workItem from="1702985444738" duration="488000" />
       <workItem from="1703090012746" duration="5000" />
-      <workItem from="1703090190420" duration="2599000" />
+      <workItem from="1703090190420" duration="6330000" />
     </task>
     <task id="LOCAL-00001" summary="setting up project">
       <option name="closed" value="true" />
@@ -131,7 +83,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702985891296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="back-end done">
+      <option name="closed" value="true" />
+      <created>1703093304556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703093304556</updated>
+    </task>
+    <task id="LOCAL-00004" summary="back-end done">
+      <option name="closed" value="true" />
+      <created>1703093322423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703093322423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setting up project" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up project" />
+    <MESSAGE value="back-end done" />
+    <option name="LAST_COMMIT_MESSAGE" value="back-end done" />
   </component>
 </project>

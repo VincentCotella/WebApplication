@@ -2,9 +2,6 @@ import express, { Request, Response } from 'express';
 import learningFactRoutes from './routes/LearningFactRoutes';
 import learningPackageRoutes from './routes/LearningPackageRoutes';
 
-
-
-
 // Create Express application
 const app = express();
 

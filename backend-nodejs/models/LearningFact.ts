@@ -4,9 +4,10 @@ import LearningPackage from "./LearningPackage";
 class LearningFact extends Model {
     public learningFactId!: number;
     public title!: string;
-    public content!: string;
+    public question!: string;
+    public answer!: string;
+    public nextStudyTime!: string;
     public learningPackageId!:number;
-    public disabled!: boolean;
 }
 
 LearningFact.init(
@@ -20,8 +21,17 @@ LearningFact.init(
             type: DataTypes.TEXT,
             allowNull: false,
         },
-        content: {
+        question: {
             type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        answer: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        nextStudyTime: {
+            type: 'TIMESTAMP',
+            defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
             allowNull: false,
         },
         learningPackageId: {

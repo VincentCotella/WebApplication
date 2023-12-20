@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize';
 
 const sequelize = new Sequelize({
   database: 'LearningDB',
-  username: 'LearningDB',
+  username: 'LearningDBUser',
   password: 'root',
   host: 'localhost', // Database host (e.g., 'localhost')
   dialect: 'postgres', // Specify the PostgreSQL dialect
