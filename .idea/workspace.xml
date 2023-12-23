@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9105ff2b-4dde-42b2-86d9-d3fc8693ae41" name="Changes" comment="back-end modified">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/models/LearningFact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/routes/LearningPackageRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-nodejs/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend-nodejs/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-angular/src/app/study-page/study-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-angular/src/app/study-page/study-page.component.css" afterDir="false" />
-    </list>
+    <list default="true" id="9105ff2b-4dde-42b2-86d9-d3fc8693ae41" name="Changes" comment="back-end modified" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,22 +24,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Vivien/Documents/A4 CCC S1/react & nodejs/WebApplication/frontend-angular/src/app/services",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Vivien\\Documents\\A4 CCC S1\\react & nodejs\\WebApplication\\frontend-angular\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vivien/Documents/A4 CCC S1/react &amp; nodejs/WebApplication/frontend-angular/src/app/services&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Vivien\\Documents\\A4 CCC S1\\react &amp; nodejs\\WebApplication\\frontend-angular\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vivien\Documents\A4 CCC S1\react &amp; nodejs\WebApplication\frontend-angular\src\app\services" />
@@ -74,6 +65,7 @@
       <workItem from="1702985444738" duration="488000" />
       <workItem from="1703090012746" duration="5000" />
       <workItem from="1703090190420" duration="14905000" />
+      <workItem from="1703356664693" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="setting up project">
       <option name="closed" value="true" />
